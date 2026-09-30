@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GameHub – Free Browser Games</title>
+    <meta name="description" content="Browse and play free browser games on GameHub.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">GameHub</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" id="games">
+        <div class="page-head">
+            <div class="page-intro">
+                <h1>Play Games</h1>
+                <p>Browse free browser games and start playing instantly.</p>
+            </div>
+            <div class="search">
+                <label class="visually-hidden" for="search-input">Search games</label>
+                <input id="search-input" type="search" placeholder="Search games" autocomplete="off">
+            </div>
+        </div>
+
+        <div id="game-grid" class="game-grid"></div>
+        <noscript><p class="message">JavaScript is required to display the games.</p></noscript>
+
+        <p id="empty-message" class="message" role="status" hidden>No games found.</p>
+
+        <div class="load-more-wrap">
+            <button id="load-more" class="load-more" type="button" hidden>Load More</button>
+        </div>
+    </main>
+
+    <footer class="site-footer" id="about">
+        <div class="container footer-inner">
+            <strong class="footer-name">GameHub</strong>
+            <p>&copy; <span id="year">2026</span> GameHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+

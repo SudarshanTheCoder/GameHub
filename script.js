@@ -1,8 +1,8 @@
 const games = [
     {
-        title: "Block Drop",
-        image: "images/block-drop.jpg",
-        url: "games/block-drop/index.html",
+        title: "Tetris",
+        image: "images/tetris.jpeg",
+        url: "games/tetris/index.html",
         category: "Puzzle"
     },
     {

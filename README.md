@@ -2,7 +2,7 @@
 A website consisting of various fun games made entirely with html , css and javascript. This is made by me.
 
 ## Featured Games :
-
+1. Tetris 
 
 
 ## Technologised used :

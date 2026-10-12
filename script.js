@@ -7,7 +7,7 @@ const games = [
     },
     {
         title: "Pacman",
-        image: "images/pacman.jpg",
+        image: "images/pacman.png",
         url: "games/pacman/index.html",
         category: "Board"
     },

@@ -6,9 +6,9 @@ const games = [
         category: "Puzzle"
     },
     {
-        title: "Grand Chess",
-        image: "images/grand-chess.jpg",
-        url: "games/grand-chess/index.html",
+        title: "Pacman",
+        image: "images/pacman.jpg",
+        url: "games/pacman/index.html",
         category: "Board"
     },
     {

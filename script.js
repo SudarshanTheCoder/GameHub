@@ -9,80 +9,9 @@ const games = [
         title: "Pacman",
         image: "images/pacman.png",
         url: "games/pacman/index.html",
-        category: "Board"
-    },
-    {
-        title: "Sky Runner",
-        image: "images/sky-runner.jpg",
-        url: "games/sky-runner/index.html",
         category: "Arcade"
     },
-    {
-        title: "Tiny Golf",
-        image: "images/tiny-golf.jpg",
-        url: "games/tiny-golf/index.html",
-        category: "Sports"
-    },
-    {
-        title: "Street Racer",
-        image: "images/street-racer.jpg",
-        url: "games/street-racer/index.html",
-        category: "Racing"
-    },
-    {
-        title: "Word Ladder",
-        image: "images/word-ladder.jpg",
-        url: "games/word-ladder/index.html",
-        category: "Puzzle"
-    },
-    {
-        title: "Merge Numbers",
-        image: "images/merge-numbers.jpg",
-        url: "games/merge-numbers/index.html",
-        category: "Puzzle"
-    },
-    {
-        title: "Bubble Pop",
-        image: "images/bubble-pop.jpg",
-        url: "games/bubble-pop/index.html",
-        category: "Casual"
-    },
-    {
-        title: "Solitaire Classic",
-        image: "images/solitaire-classic.jpg",
-        url: "games/solitaire-classic/index.html",
-        category: "Card"
-    },
-    {
-        title: "Tower Defense Lite",
-        image: "images/tower-defense-lite.jpg",
-        url: "games/tower-defense-lite/index.html",
-        category: "Strategy"
-    },
-    {
-        title: "Pixel Platformer",
-        image: "images/pixel-platformer.jpg",
-        url: "games/pixel-platformer/index.html",
-        category: "Action"
-    },
-    {
-        title: "Snake Classic",
-        image: "images/snake-classic.jpg",
-        url: "games/snake-classic/index.html",
-        category: "Arcade"
-    },
-    {
-        title: "Pool Master",
-        image: "images/pool-master.jpg",
-        url: "games/pool-master/index.html",
-        category: "Sports"
-    },
-    {
-        title: "Jigsaw Garden",
-        image: "images/jigsaw-garden.jpg",
-        url: "games/jigsaw-garden/index.html",
-        category: "Puzzle"
-    }
+
 ];
 
 const gamesPerPage = 12;

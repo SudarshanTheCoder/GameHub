@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Pacman</title>
+    </head>
+    <body>
+        <!--Game Canvas where all graphics are rendered-->
+        <canvas id="canvas" width="500" height="500"></canvas>
+
+        <!-- Hiddden assets for potential future sprite loading-->
+         <div style="display:none">
+            <img id="animations" src="assests/animations.gif" alt="">
+            <img id="ghost" src="assests/ghost.png" alt="">
+         </div>
+         <!--Load game scripts in correct order-->
+         <script src="ghost.js"></script>
+         <script src="pacman.js"></script>
+         <script src="game.js"></script>
+    </body>
+    </html>
